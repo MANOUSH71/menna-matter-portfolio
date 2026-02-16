@@ -7,6 +7,11 @@ body {
     line-height: 1.6;
 }
 
+/* Container */
+.container {
+    width: 100%;
+}
+
 /* Links */
 a {
     color: #9ca3af; /* Light gray */
@@ -64,9 +69,18 @@ h3 {
     margin-bottom: 10px;
 }
 
+/* Paragraphs */
+p {
+    color: #e5e7eb;
+}
+
 /* Lists */
 ul {
     margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 /* Footer */
