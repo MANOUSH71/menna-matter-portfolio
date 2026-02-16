@@ -1,32 +1,36 @@
-/* Global Styles */
+/* ================= Global Styles ================= */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000000; /* Dark background */
-    color: #ffffff; /* White text */
     line-height: 1.6;
+    background-color: #0f172a; /* Dark background */
+    color: #e5e7eb; /* Light text */
 }
 
-/* Container */
-.container {
-    width: 100%;
-}
-
-/* Links */
+/* ================= Links ================= */
 a {
-    color: #9ca3af; /* Light gray */
+    color: #38bdf8; /* Bright blue */
     text-decoration: none;
 }
 
 a:hover {
-    color: #38bdf8; /* Bright blue on hover */
+    text-decoration: underline;
 }
 
-/* Header */
+/* ================= Header ================= */
 header {
-    background-color: #0f172a; /* Dark blue/navy */
+    background-color: #020617; /* Darker header */
     text-align: center;
-    padding: 40px 20px;
+    padding: 50px 20px 30px;
+}
+
+header img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+    margin-bottom: 15px;
 }
 
 header h1 {
@@ -36,27 +40,27 @@ header h1 {
 }
 
 header p {
-    color: #9ca3af;
+    color: #94a3b8;
     font-size: 1.2em;
 }
 
-/* Main Content */
+/* ================= Main Content ================= */
 main {
     max-width: 900px;
     margin: auto;
     padding: 20px 0;
 }
 
-/* Sections */
+/* ================= Sections ================= */
 section {
-    background-color: #111827; /* Slightly lighter dark */
+    background-color: #020617; /* Dark section */
     margin: 20px;
-    padding: 25px;
+    padding: 20px 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.15);
 }
 
-/* Headings */
+/* ================= Headings ================= */
 h2 {
     color: #38bdf8;
     border-bottom: 2px solid #38bdf8;
@@ -65,29 +69,21 @@ h2 {
 }
 
 h3 {
-    color: #9ca3af;
+    color: #7dd3fc;
     margin-bottom: 10px;
 }
 
-/* Paragraphs */
-p {
-    color: #e5e7eb;
-}
-
-/* Lists */
+/* ================= Lists ================= */
 ul {
     margin-left: 20px;
 }
 
-li {
-    margin-bottom: 8px;
-}
-
-/* Footer */
+/* ================= Footer ================= */
 footer {
     text-align: center;
+    margin: 50px 0 20px;
     padding: 20px;
-    background-color: #0f172a;
-    color: #9ca3af;
+    background-color: #020617;
+    color: #94a3b8;
     font-size: 0.9em;
 }
