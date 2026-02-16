@@ -253,58 +253,6 @@ section article:last-child {
     z-index: 1;
 }
 
-.skills-container {
-    margin: 20px 0;
-    position: relative;
-    z-index: 1;
-}
-
-.skills-container h4 {
-    color: #7dd3fc;
-    font-size: 1.05em;
-    margin-bottom: 12px;
-    font-weight: 700;
-}
-
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 18px;
-}
-
-.skill-tag {
-    background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);
-    color: #7dd3fc;
-    padding: 8px 14px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    font-weight: 600;
-    border: 1px solid rgba(56, 189, 248, 0.3);
-    transition: all 0.3s ease;
-    display: inline-block;
-}
-
-.skill-tag:hover {
-    background: linear-gradient(135deg, rgba(56, 189, 248, 0.25) 0%, rgba(16, 185, 129, 0.25) 100%);
-    border-color: #38bdf8;
-    color: #38bdf8;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.2);
-}
-
-.project-insight {
-    color: #a1a5ae;
-    font-style: italic;
-    margin-top: 18px;
-    padding: 15px;
-    background: linear-gradient(135deg, rgba(56, 189, 248, 0.08) 0%, rgba(56, 189, 248, 0.02) 100%);
-    border-radius: 6px;
-    border-left: 4px solid #38bdf8;
-    position: relative;
-    z-index: 1;
-}
-
 /* ================= Skills Section ================= */
 .skills-section {
     margin-bottom: 40px;
@@ -365,11 +313,54 @@ section article:last-child {
 
 .skill-name {
     color: #7dd3fc;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 700;
     display: block;
     position: relative;
     z-index: 1;
+    line-height: 1.4;
+}
+
+/* ================= Certificate Items ================= */
+.certificate-item {
+    background: linear-gradient(135deg, rgba(26, 31, 58, 0.6) 0%, rgba(15, 23, 42, 0.6) 100%);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-left: 4px solid #f59e0b;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.certificate-item:hover {
+    border-color: #f59e0b;
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.15);
+    transform: translateY(-3px);
+}
+
+.certificate-item h3 {
+    color: #f59e0b;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+}
+
+.certificate-item p {
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+.certificate-item p strong {
+    color: #7dd3fc;
+}
+
+.certificate-description {
+    color: #cbd5e1;
+    font-style: italic;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(56, 189, 248, 0.1);
 }
 
 /* ================= Headings ================= */
@@ -558,15 +549,6 @@ footer p {
         width: auto;
     }
 
-    .skills-grid {
-        gap: 8px;
-    }
-
-    .skill-tag {
-        padding: 6px 12px;
-        font-size: 0.85em;
-    }
-
     .skills-list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 12px;
@@ -574,6 +556,14 @@ footer p {
 
     .skill-item {
         padding: 15px;
+    }
+
+    .skill-name {
+        font-size: 0.95em;
+    }
+
+    .certificate-item {
+        padding: 20px;
     }
 
     p {
@@ -633,19 +623,9 @@ footer p {
         gap: 10px;
     }
 
-    .project-description,
-    .project-insight {
+    .project-description {
         padding: 12px;
         font-size: 0.95em;
-    }
-
-    .skills-grid {
-        gap: 8px;
-    }
-
-    .skill-tag {
-        padding: 6px 10px;
-        font-size: 0.8em;
     }
 
     .skills-list {
@@ -658,7 +638,16 @@ footer p {
     }
 
     .skill-name {
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+
+    .certificate-item {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .certificate-item h3 {
+        font-size: 1.1em;
     }
 
     footer {
