@@ -378,20 +378,20 @@ section article:last-child {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid rgba(56, 189, 248, 0.2);
-    border-left: 4px solid #f59e0b;
+    border-left: 4px solid #7dd3fc;
     transition: all 0.3s ease;
     position: relative;
     z-index: 1;
 }
 
 .certificate-item:hover {
-    border-color: #f59e0b;
+    border-color: #7dd3fc;
     box-shadow: 0 6px 20px rgba(245, 158, 11, 0.15);
     transform: translateY(-3px);
 }
 
 .certificate-item h3 {
-    color: #f59e0b;
+    color: #7dd3fc;
     margin-bottom: 12px;
     font-size: 1.3em;
 }
@@ -406,7 +406,7 @@ section article:last-child {
 }
 
 .certificate-description {
-    color: #cbd5e1;
+    color: #7dd3fc;
     font-style: italic;
     margin-top: 10px;
     padding-top: 10px;
@@ -415,7 +415,7 @@ section article:last-child {
 
 /* ================= Headings ================= */
 h2 {
-    color: #38bdf8;
+    color: #7dd3fc;
     font-size: 2em;
     border-bottom: 3px solid #38bdf8;
     padding-bottom: 12px;
